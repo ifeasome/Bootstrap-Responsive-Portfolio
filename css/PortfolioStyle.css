@@ -1,0 +1,35 @@
+
+    /*background image*/
+    body {
+        width: 100%;
+        height: auto;
+        border: 1px;
+        background-image: url("/Users/somelinaobiechina/Desktop/Bootstrap-Responsive-Portfolio/images/Background.jpg");
+    }
+    /*navbar font*/
+    .navbar-brand, .nav-item, p, h5, h1, ::placeholder, .form-group, .form-row {
+        font-family: 'Pacifico', cursive;    
+        font-size: 24px;
+    }
+
+    
+
+    h4 {
+        font-family: 'Pacifico', cursive; 
+        font-size: 30px;
+
+    }
+
+    /*padded space after the navbar*/
+      
+          .media, .container {
+              padding-top: 80px;
+          }
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: violet;
+    text-align: center;
+    margin-bottom: -10px;
+}
