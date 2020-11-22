@@ -5,63 +5,198 @@
     <!--My head tag includes: linked bootstrap, linked CSS, and linked Google fonts-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="./css/PortfolioStyle.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" type="text/css" href="./css/PortfolioStyle.css">
+
+ 
+
     <!--I am a title-->
     <title>Portfolio</title>
+    <!--I am a navigation bar-->
 </head>
 
-
 <body>
-    <!--I am a navigation bar-->
     <nav class="navbar navbar-expand-md navbar-light bg-transparent">
-        <a class="navbar-brand" href="./index.html">Somelina Obiechina</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand" href="./index.html"><h5> Somelina Obiechina</h5></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" 
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="./index.html">Who am I</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./portfolio.html">Check me out</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./contact.html">Let's Chat</a>
-                </li>
-            </ul>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="./index.html"><h5>About Me</h5></a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./portfolio.html"><h5>Showcase</h5></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html"><h5>Connect</h5></a>
+            </li>
+          </ul>
         </div>
-    </nav>
-    <hr>
-    <!--I am making the images stay in columns and rows. I even put the spaces in :)-->
-    <div class="container">
-        <div class="row">
+      </nav>
+      <hr>
+    <!--I am making the images stay in columns and rows-->
+    <div class="container px-lg-5">
+        <div class="row mx-lg-n5">
             <!--row one: -->
-            <div class="col-md-10">
-                <img src="./images/"
-                <!--<p><a href="https://giphy.com/gifs/ujy9f9BElSfFVE4K09">via GIPHY</a></p>--->
-
-                <a href="https://ifeasome.github.io/Marvel-Cards">Marvel Character Cards</a>
+            <div class="col py-3 px-lg-5 border bg-warning">
+                <h3>Marvel Character Cards</h3>
+                <img src="./images/marvel-profile.jpg" width="350" height="350"> 
             </div>
+               <div class="col py-3 px-lg-5 border bg-light">
+                    <!-- Trigger the modal with a button -->
+                    <p>Utilising two server side API, this application creates a Marvel Hero Card displayed on a HTML5 web browser with a thirty-second (30) soundtrack included.</p>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <button type="button" class="btn btn-secondary btn-lg" data-toggle="modal" data-target="#myModal">Preview</button> <<<<<<>>>>>
+                    
+                    <button type="button" class="btn btn-secondary btn-lg"><a href="https://ifeasome.github.io/Marvel-Cards" target="_blank">Visit Site</a></button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="marvelXterCardlabel" aria-hidden="true">
+
+                      <div class="modal-dialog modal-dialog-centered">
+                      
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h4 class="modal-title" id="exampleModalLabel">Marvel Character Cards</h4>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                          </div>
+                          <div class="modal-body">
+                            <img src="./images/Marvel-Character_Cards.gif">
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                          </div>
+                        </div>
+                        
+                      </div>
+                    </div>
+               </div>
+               </div>
+            <br>
+            <hr>
             <!--row two: -->
-            <div class="col-md-12">
-                <a href="https://ifeasome.github.io/Weather-Dashboard/">weather-dashboard</a>
-            </div>
-            <!--row three: -->
-            <div class="col-md-12">
-                <a href="https://ifeasome.github.io/Web-API-Code-Quiz/">Web-API-Code-Quiz</a>
-            </div>
+            <div class="row mx-lg-n5">
+                <div class="col py-3 px-lg-5 border bg-light">
+                    <h3>Weather Dashboard</h3>
+                    <img src="./images/weather-profile.jpg" width="350" height="350"> 
+                </div>
+                <div class="col py-3 px-lg-5 border bg-light">
+                     <!-- Trigger the modal with a button -->
+                     <p>Weather dashboard that runs in the browser and features dynamically updated HTML and CSS. Using the OpenWeather API to retrieve weather data for cities and localStorage to store any persistent data.</p>
+                     <br>
+                     <br>
+                     <br>
+                     <br>
+                     <br>
+
+                     <button type="button" class="btn btn-secondary btn-lg" data-toggle="modal" data-target="#weatherModal">Preview</button> <<<<<<>>>>>
+
+                     <button type="button" class="btn btn-secondary btn-lg"><a href="https://ifeasome.github.io/Weather-Dashboard/" target="_blank">Visit Site</a></button>
+
+                      <!-- Modal -->
+                    <div class="modal fade" id="weatherModal" tabindex="-1" aria-labelledby="weatherDashboardmodal" aria-hidden="true">
+
+                        <div class="modal-dialog modal-dialog-centered">
+
+                            <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                              <h4 class="modal-title" id="weatherDashboardmodal">Weather Dashboard</h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                            </div>
+                            <div class="modal-body">
+                                <img src="./images/Weather-Dashboard.gif">
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                              </div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                   </div>
+                   </div>    
+                   <br>
+                   <hr>
+       
+                   <!--row three: -->
+                   <div class="row mx-lg-n5">
+                       <div class="col py-3 px-lg-5 border bg-light">
+                           <h3>Game Quiz</h3>
+                           <img src="./images/quiz-profile.jpg" width="350" height="350"> 
+                       </div>
+                       <div class="col py-3 px-lg-5 border bg-light">
+                           <!-- Trigger the modal with a button -->
+                           <p>A timed coding quiz with multiple-choice questions. This app runs on HTML5 browsers, and features dynamically updated HTML and CSS powered by JavaScript.</p>
+                           <br>
+                           <br>
+                           <br>
+                           <br>
+                           <br>
+       
+                   <button type="button" class="btn btn-secondary btn-lg" data-toggle="modal" data-target="#quizModal">Preview</button> <<<<<<>>>>>
+       
+                   <button type="button" class="btn btn-secondary btn-lg"><a href="https://ifeasome.github.io/Web-API-Code-Quiz/" target="_blank">Visit Site</a></button>
+       
+       
+                     <!-- Modal -->
+               <div class="modal fade" id="quizModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+       
+                   <div class="modal-dialog modal-dialog-centered">
+             <!-- Modal content-->
+             <div class="modal-content">
+               <div class="modal-header">
+                 <h4 class="modal-title" id="exampleModalLabel">Game Quiz</h4>
+           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+             <span aria-hidden="true">&times;</span>
+               </div>
+               <div class="modal-body">
+                   <img src="./images/Game-Quiz.gif">
+               </div>
+               <div class="modal-footer">
+                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+               </div>
+             </div>
+           </div>
+         </div>
+       </div>
+       </div>
+            
         </div>
+            
+
+</div>  
+</div>      
+</div>
+
+</div>
+            </div>
+            
+        </div>
+            <br>
+            <hr>
+        </div> 
     </div>
-    <!--I am a footer and I contain all the credits to all the images in this page-->
-    <footer class="footer mt-auto py-3">
-      
-      </footer>
-
-
+</div>    
+</div> 
+<script src="script.js"></script>     
 </body>
 
 </html>
