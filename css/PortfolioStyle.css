@@ -23,7 +23,14 @@ body {
     word-wrap: break-word;
     padding-left: 25%;
     font-size: 20px;
-    
+    position: relative;
+    animation: mymove 5s;
+    animation-timing-function: ease-in;
+}
+
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 300px;}
 }
 
 .py-3 {
