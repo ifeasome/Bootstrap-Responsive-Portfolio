@@ -5,7 +5,7 @@ A bootstrap responsive portfolio that renders well on a variety of devices and w
 ## Installation
 
 1. Install any web browser with HTML5 capabilities.
-2. Right clink on the [index.html](index.html) and open in installed web browser.
+2. Open live link in ##Tests section to run web application
 
 # Page (Index.html, portfolio.html, contact.html, PortfolioStyle.css) Properties:
 
