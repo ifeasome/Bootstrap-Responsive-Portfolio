@@ -28,7 +28,7 @@ A bootstrap responsive portfolio that renders well on a variety of devices and w
 1. Trilogy Education Services, a 2u, Inc. brand.
 2. Bootstrap
 3. Google Fonts
-4. Pixabay
+
 
 ## Screenshots
 
@@ -44,9 +44,9 @@ The following shows the web applications appearance and functionality:
 ## Tests
 
 To test HTML pages(index, portfolio and contact), open in web browser and follow links at the menu header level.
-![LiveLink](https://ifeasome.github.io/Portfolio/)
+![LiveLink][https://ifeasome.github.io/Portfolio/]
 
 ## License
 
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.<br>
 © 2020 Somelina Obiechina
