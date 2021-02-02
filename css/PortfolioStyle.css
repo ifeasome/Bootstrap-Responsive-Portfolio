@@ -1,6 +1,7 @@
 /*background image for all my three pages*/
 body {
-  background-color: #696d7d;
+  background-image: url("bkg4.jpg");
+  /* background-color: #696d7d; */
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -35,21 +36,27 @@ h1,
 
 .py-3 {
   border-radius: 10%;
-  background-color: #f2eecb !important;
+  background-color: #f0ad4e!important;
 }
 
-a {
-  color: #e9c46a;
+a, h5 {
+  color: rgb(155, 117, 117);
 }
 
-h5, .btn {
-  color: #e9c46a;
+.btn {
+  color: #684d0b;
 }
 
 h4 {
   font-size: 30px;
 }
 
+hr {
+  height: 2px;
+  border-width: 0;
+  color: gray;
+  background-color:gray
+}
 .mr-3 {
   border-radius: 80%;
   position: relative;

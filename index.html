@@ -4,12 +4,25 @@
 <head>
   <!--My head tag includes: linked bootstrap, linked CSS, and linked Google fonts-->
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
-    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="./css/PortfolioStyle.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
+
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" 
+    crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" type="text/css" href="./css/PortfolioStyle.css">
     
     <!--for a title-->
     <title>Index</title>
@@ -42,14 +55,45 @@
     <div class="media">
       <img src="./images/ProileBitMoji.png" class="mr-3 img-thumbnail" width="100" height="100" alt="profile bitmoji" border-radius="50%">
       <div class="media-body">
-        <div class="text"><h5 class="mt-0">Hey there!</h5>
-          I am a full-stack web developer with over four years of multidisciplinary experience. You can do an 
-          official thing and check out my
-          <a href="./assets/Somelina_Resume_Obiechina.pdf">resume.</a>
-           <br> Or: Take a step into my <a href="./portfolio.html">portfolio </a>
-            and see what I have been up to. </div>
+        <div class="mx-auto text-center">
+          <h5 style="color: gold;">I solemely swear that I am not a robot.</h5>
+          <br>
+          <br> 
+          <!-- Modal button trigger-->
+          <button style="color: gold" type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">reCaptcha</button> 
+          <br>
+          <br> 
+        </div>
       </div>
     </div>
+                
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="marvelXterCardlabel" aria-hidden="true">
+
+    <div class="modal-dialog modal-dialog-centered">
+                      
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title text-info" id="ModalLabel">My README.md</h4>
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+      </div>
+        <div class="modal-body">
+          <p class="text-warning mb-4">
+            Full Stack Web Developer leveraging psychology and business management background to build a glitch-free user experience on the web.   
+          </p>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-light" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-light"><a href="assets/Somelina_Resume_Obiechina.pdf">See more</a></button>
+            </div>
+            </div>
+                        
+    </div>
+    </div>
+
+  
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="script.js"></script>
