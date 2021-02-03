@@ -2,35 +2,40 @@
 <html lang="en">
 
 <head>
-    <!--My head tag includes: linked bootstrap, linked CSS, and linked Google fonts-->
+
+<!--My head tag includes: linked bootstrap, linked CSS, and linked Google fonts-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--Fontawesome webkit-->
+<script src="https://kit.fontawesome.com/cba9f178ba.js" crossorigin="anonymous"></script>
 
+<!--google fonts-->
 <link rel="preconnect" href="https://fonts.gstatic.com">
+
 <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--Bootstrap CSS, Jquery -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
 
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
+  integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" 
+  crossorigin="anonymous"></script>
 
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" 
-    crossorigin="anonymous"></script>
-
+<!--Custom styled CSS-->
   <link rel="stylesheet" type="text/css" href="./css/PortfolioStyle.css">
 
  
 
-    <!--I am a title-->
-    <title>Portfolio</title>
-    <!--I am a navigation bar-->
+<!--I am a title-->
+<title>Portfolio</title>
 </head>
 
 <body>
+<!--I am a navigation bar-->
     <nav class="navbar navbar-expand-md navbar-light bg-transparent">
         <a class="navbar-brand" href="./index.html"><h5> Somelina Obiechina</h5></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" 
@@ -51,10 +56,33 @@
         </div>
       </nav>
       <hr>
-    <!--I am making the images stay in columns and rows-->
-    <div class="alert alert-dark" role="alert">
-        Technologies used: CSS3, HTML5, JavaScript, Bootstrap, Client-side storage,Nodejs, MySQL, Express, Handlebars, Github Repository and Ajax
+    <!--Skills & Technologies-->
+    <div class="accordion" id="accordionSkillset">
+      <div class="card-div" style="background-color: #616d9b;">
+        <div class="card-header" id="headingOne">
+          <h2 class="mb-0">
+            <button class="btn" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              <h5>Skills & Technologies</h5>
+            </button>
+          </h2>
+        </div>
+    
+        <div id="collapseOne" class="collapse hide" aria-labelledby="headingOne" data-parent="#accordionSkillset">
+          <div class="card-body skillSet">
+            <div class="subheading text-white mb-3">Programming Languages & Tools</div>
+            <ul class="list-inline dev-icons">
+                <li class="list-inline-item text-white"><i class="fab fa-html5 fa-2x"></i></li>
+                <li class="list-inline-item text-white"><i class="fab fa-css3-alt fa-2x"></i></li>
+                <li class="list-inline-item text-white"><i class="fab fa-js-square fa-2x"></i></li>
+                <li class="list-inline-item text-white"><i class="fab fa-react fa-2x"></i></li>
+                <li class="list-inline-item text-white"><i class="fab fa-node-js fa-2x"></i></li>
+                <li class="list-inline-item text-white"><i class="fab fa-npm fa-2x"></i></li>
+            </ul>
+          </div>
+        </div>
       </div>
+    </div>
+      <!--I am making the images stay in columns and rows-->
     <div class="container px-lg-5">
         <div class="row mx-lg-n5">
             <!--row one: -->
@@ -240,9 +268,56 @@
 </div>
 </div>
    
-        </div> <!--end of div for the showcase leafs-->
-            
+<br>
+<hr>        
+<!--row five: -->
+       <div class="row mx-lg-n5">
+        <div class="col py-3 px-lg-5 border bg-light">
+            <h3>The Ultimate Challenge<a href="https://github.com/ifeasome/Burger-Express-Handlebars" target="_blank">
+              <i class="fa fa-github" style="font: size 24px;"></i></a></h3>
+            <img src="./images/burger_profile.jpg" width="350" height="350"> 
+        </div>
+        <div class="col py-3 px-lg-5 border bg-light">
+            <!-- Trigger the modal with a button -->
+            <p>This application is a burger logger with MySQL, Node, Express, Handlebars and a homemade ORM. It follows the MVC design pattern.</p>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
 
+    <button type="button" class="btn btn-secondary btn-lg" data-toggle="modal" data-target="#burgerModal">Preview</button> <<<<<<>>>>>
+
+    <button type="button" class="btn btn-secondary btn-lg"><a href="https://pacific-caverns-39002.herokuapp.com/" target="_blank">Visit Site</a></button>
+
+
+      <!-- Modal -->
+<div class="modal fade" id="burgerModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+
+    <div class="modal-dialog modal-dialog-centered">
+<!-- Modal content-->
+<div class="modal-content">
+<div class="modal-header">
+  <h4 class="modal-title" id="exampleModalLabel">Burger Handle</h4>
+<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+<span aria-hidden="true">&times;</span>
+</div>
+<div class="modal-body">
+    <img src="./images/Burger_app.gif">
+</div>
+<div class="modal-footer">
+  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+   
+        </div> <!--end of div for the showcase leafs-->
+</div> 
+
+            
 </div>  
 </div>      
 </div>

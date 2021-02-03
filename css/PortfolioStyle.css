@@ -70,7 +70,7 @@ hr {
 
 .fa-github, 
 .fa-linkedin-square,
-.fa-file-pdf-o {
+.fa-file-pdf-o, .skill-set {
     padding: 0;
     display: inline-block;
     vertical-align:top;
