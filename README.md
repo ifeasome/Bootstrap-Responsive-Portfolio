@@ -43,7 +43,7 @@ The following shows the web applications appearance and functionality:
 ## Tests
 
 To test HTML pages(index, portfolio and contact), open in web browser and follow links at the menu header level.
-![LiveLink][https://ifeasome.github.io/portfolio/]
+[LiveLink][https://ifeasome.github.io/portfolio/]
 
 ## License
 
