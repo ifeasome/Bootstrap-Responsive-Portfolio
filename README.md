@@ -29,7 +29,6 @@ A bootstrap responsive portfolio that renders well on a variety of devices and w
 2. Bootstrap
 3. Google Fonts
 
-
 ## Screenshots
 
 The following shows the web applications appearance and functionality:
@@ -44,7 +43,7 @@ The following shows the web applications appearance and functionality:
 ## Tests
 
 To test HTML pages(index, portfolio and contact), open in web browser and follow links at the menu header level.
-![LiveLink][https://ifeasome.github.io/Portfolio/]
+![LiveLink][https://ifeasome.github.io/portfolio/]
 
 ## License
 

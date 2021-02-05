@@ -8,7 +8,7 @@ body {
   background-size: cover;
   padding: 9%;
   padding-top: 5%;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 /*navbar font.. I am a font style. I make all the pages have the cursive curly writing*/
 .navbar-brand,
@@ -19,7 +19,7 @@ h1,
 ::placeholder,
 .form-group,
 .form-row {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 24px;
 }
 
@@ -33,13 +33,13 @@ h1,
   text-shadow: 0 0 3px #bc6c25;
 }
 
-
 .py-3 {
   border-radius: 10%;
-  background-color: #f0ad4e!important;
+  background-color: #f0ad4e !important;
 }
 
-a, h5 {
+a,
+h5 {
   color: rgb(155, 117, 117);
 }
 
@@ -55,7 +55,7 @@ hr {
   height: 2px;
   border-width: 0;
   color: gray;
-  background-color:gray
+  background-color: gray;
 }
 .mr-3 {
   border-radius: 80%;
@@ -68,14 +68,13 @@ hr {
   padding-top: 80px;
 }
 
-.fa-github, 
+.fa-github,
 .fa-linkedin-square,
-.fa-file-pdf-o, .skill-set {
-    padding: 0;
-    display: inline-block;
-    vertical-align:top;
-    margin-right: 1em;
-    padding-left: 15%;
-
+.fa-file-pdf-o,
+.skill-set {
+  padding: 0;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 1em;
+  padding-left: 15%;
 }
-
